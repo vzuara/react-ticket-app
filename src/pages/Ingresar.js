@@ -2,7 +2,7 @@ import { SaveOutlined } from '@ant-design/icons';
 import { Button, Divider, Form, Input, InputNumber, Typography } from 'antd';
 import { useState } from 'react';
 import { Navigate, useNavigate } from 'react-router-dom';
-import { useHideMenu } from '../context/useHideMenu';
+import { useHideMenu } from '../hooks/useHideMenu';
 import { getUsuarioStorage } from '../helpers/getUsuarioStorage';
 
 const { Title, Text } = Typography;
